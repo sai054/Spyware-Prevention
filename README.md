@@ -5,12 +5,15 @@ through this project, the webcam can be locked by the respective user and can pr
 screen shots of the project woking:
 
 1.user interface:
+
 ![image](https://github.com/sai054/Spyware-Prevention/assets/160818112/dc88ca1e-7dfa-46b7-a3dc-67af8479ec33)
 
 2.user registeration:
+
 ![image](https://github.com/sai054/Spyware-Prevention/assets/160818112/3013ebbd-d455-46ee-9a5e-07544e3c62bf)
 
 3.password entering modules for enabling and disabling camera:
+
 ![image](https://github.com/sai054/Spyware-Prevention/assets/160818112/2c84e338-19fd-4a14-b78c-a8fab4fabf51)
 
 ![image](https://github.com/sai054/Spyware-Prevention/assets/160818112/e2cb1193-20ef-44b9-b271-8165e074b1aa)
