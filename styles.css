@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  background-color: #000000;
+  font-family: "Inter", sans-serif;
+  min-height: 100vh;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 0 10px 5px rgba(158, 158, 158, 0.25);
+  background: url("table-bg.jpg") no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+  width: 90%;
+  @media screen and (width < 500px) {
+    width: 95%;
+    padding: 15px;
+    gap: 15px;
+  }
+}
+
+main .container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 1220px;
+  width: 100%;
+}
+
+main h1 {
+  color: #ff8c00;
+  font-size: 3rem;
+  @media screen and (width < 500px) {
+    font-size: 2rem;
+  }
+}
+
+h2 {
+  color:#ff8c00;
+  @media screen and (width < 500px) {
+    font-size: 1.25rem;
+  }
+}
+
+table {
+  color:#f0e68c;
+  border-spacing: 10;
+  backdrop-filter: blur(50px);
+  word-break: break-all;
+}
+
+table tr th {
+  color:#e9967a;
+  font-weight: 600;
+  border: 1px solid white;
+  padding: 5px 0;
+}
+
+table tr th:nth-of-type(1) {
+  color: #e9967a;
+  width: 150px;
+  @media screen and (width < 500px) {
+    width: auto;
+  }
+}
+
+table tr td {
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  @media screen and (width < 500px) {
+    flex-shrink: 1;
+  }
+}
